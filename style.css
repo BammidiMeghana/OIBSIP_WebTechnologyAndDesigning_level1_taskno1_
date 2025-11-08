@@ -1,0 +1,124 @@
+*{
+padding: 0px;
+margin: 0%;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#main>button{
+     height: 40px;
+    width:200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(179, 231, 100);
+}
+header{
+     position:sticky;
+    height: 60px;
+    width: 100%;
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+   
+}
+.nav_tab{
+    
+    display: flex;
+  justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+.nav_tab>a{
+    color: white;
+     font-size: large;
+     margin-top: 1%;
+   
+}
+
+#Bcgd_img>div>img{
+    margin-top: 2%;
+    position:sticky;
+    height: 600px;
+    width: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+#box{
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+margin-top: -160px;
+z-index: -1;
+font-weight: bold;
+border: 2px solid red;
+width: 350px;
+color: red;
+background-color: rgb(243, 233, 159);
+}
+
+#test_types{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    column-gap: 100px;
+   margin: auto;
+   margin-left: 6%;
+   margin-right:3%;
+}
+#test_types>div>img{
+   height: 250px;
+   width: 250px;
+}
+#Slot_booking{
+    margin-top: -10%;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+#Slot_booking>input,sub{
+    height: 15%;
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 30px
+}
+#sub{
+    background-color: blue;
+    color:white;
+}
+#sub:hover{
+    background-color: white;
+    color: blue;
+}
+
+#Offer_section>div{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+  padding-left: 30%;
+}
+
+#feedback{
+display: grid;
+display: grid;
+grid-template-rows: repeat(1,1fr);
+grid-template-columns: repeat(4,1fr);
+row-gap: 15px;
+column-gap: 10px;
+}
